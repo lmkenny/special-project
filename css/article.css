@@ -1,0 +1,17 @@
+.heading{
+  background-image: url("../images/recordstore.png");
+}
+
+.soundwave {
+    height: 390px;
+    background-image: url("../images/sound.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+.guitar {
+  height: 560px;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../images/guitar.png");
+}

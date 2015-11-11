@@ -1,0 +1,10 @@
+.container {
+  maxwidth: 40rem;
+}
+
+.guitar {
+  height: 560px;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../images/guitar.png");
+}
