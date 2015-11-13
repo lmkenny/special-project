@@ -4,7 +4,7 @@
 
 .soundwave {
     height: 390px;
-    background-image: url("../images/sound.png");
+    background-image: url("../images/wave.png");
     background-size: cover;
     background-position: center top;
 }

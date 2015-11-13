@@ -22,14 +22,14 @@ li {
     display: inline;
     float: left;
     display: block;
-    border-style: solid;
-    border-width: thin;
-    border-color: #EEEDCE;
+    /*border-style: solid;
+    border-width: thin;*/
+    /*border-color: #EEEDCE;*/
     width: 120px;
     height: 35px;
-    margin-right: 1rem;
-    margin-top: 0.5rem;
-    padding-top: 0.1rem;
+    /*margin-right: 1rem;*/
+    /*margin-top: 0.5rem;*/
+    padding-top: 0.5rem;
     box-sizing: border-box;
 
 }
