@@ -9,12 +9,16 @@
   background-image: url("../images/guitar.png");
 }
 
-a {
-    text-align: center;
-
+.sources a {
+    text-align: left;
     font-style: normal;
     display: block;
     width: 40rem;
     margin: auto;
     color: #014961;
     text-decoration: none;
+  }
+
+#sources a:visited {
+    color: #014961;
+  }

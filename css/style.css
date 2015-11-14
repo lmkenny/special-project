@@ -22,23 +22,24 @@ li {
     display: inline;
     float: left;
     display: block;
-    /*border-style: solid;
-    border-width: thin;*/
-    /*border-color: #EEEDCE;*/
+    border-style: solid;
+    border-width: thin;
+    border-color: #EEEDCE;
     width: 120px;
     height: 35px;
-    /*margin-right: 1rem;*/
+    margin-right: 1rem;
     margin-top: 0.5rem;
-    padding-top: 0.2rem;
+    padding-top: 0.1rem;
     box-sizing: border-box;
 
 }
 
 li:hover{
   background-color: #55BCAB;
+  border-style: none;
 }
 
-a {
+.menu a {
     text-align: center;
 
     font-style: normal;
@@ -137,7 +138,7 @@ p {
   /*color: #E72746 ;*/
   font-size: 340%;
   float: left;
-  padding-top: 1rem;
+  padding-top: 0.9rem;
   padding-right: 0.3rem;
   font-family: 'futura-pt', sans-serif;
   font-weight: 700;
