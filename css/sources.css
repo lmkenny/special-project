@@ -22,3 +22,15 @@
 #sources a:visited {
     color: #014961;
   }
+
+  li {
+
+      width: 120px;
+      height: 35px;
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      padding-top: 0.1rem;
+      box-sizing: border-box;
+      font-family: 'futura-pt', sans-serif;
+      
+  }

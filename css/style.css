@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   line-height: 160%;
+
 }
 
 
@@ -22,7 +23,7 @@ li {
     display: inline;
     float: left;
     display: block;
-    border-style: solid;
+    /*border-style: solid;*/
     border-width: thin;
     border-color: #EEEDCE;
     width: 120px;
@@ -31,12 +32,15 @@ li {
     margin-top: 0.5rem;
     padding-top: 0.1rem;
     box-sizing: border-box;
+    font-weight: 500;
 
 }
 
 li:hover{
-  background-color: #55BCAB;
+  font-size: 1.2rem;
+  /*background-color: #55BCAB;*/
   border-style: none;
+
 }
 
 .menu a {
@@ -54,9 +58,6 @@ a:visited{
   color: #EEEDCE; /* off white */
 }
 
-a:hover{
-  /*text-decoration: underline;*/
-}
 
 
 img{
@@ -125,6 +126,8 @@ h2 {
   padding-top: 3rem;
   /*padding-bottom: 1rem;*/
   margin-top: 0;
+  font-size: 2rem;
+  font-si
 }
 
 p {
@@ -135,7 +138,7 @@ p {
 }
 
 .lead::first-letter{
-  /*color: #E72746 ;*/
+  color: #014961 ;
   font-size: 340%;
   float: left;
   padding-top: 0.9rem;
@@ -146,8 +149,9 @@ p {
 
 }
 
-.intro {
+#intro {
   font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.4em;
   padding-left: 1.5rem;
@@ -161,7 +165,7 @@ blockquote {
   line-height: normal;
   border-left: 0.2rem solid;
   border-color: #E72746;
-  padding-left:  0.5rem;
+  padding-left:  1rem;
   color: #EEEDCE;
 }
 
@@ -181,4 +185,8 @@ blockquote {
 
 #streaming {
   color: #014961
+}
+
+html {
+  font-feature-settings: "liga" 1, "onum" 1, "kern" 1, "dlig" 1;
 }
