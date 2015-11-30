@@ -32,5 +32,16 @@
       padding-top: 0.1rem;
       box-sizing: border-box;
       font-family: 'futura-pt', sans-serif;
-      
+
   }
+
+.menu a {
+      text-align: center;
+
+      font-style: normal;
+      display: block;
+      width: 60px;
+      margin: auto;
+      color: #EEEDCE;
+      text-decoration: none;
+}

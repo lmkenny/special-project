@@ -1,3 +1,7 @@
+
+
+
+
 .heading{
   background-image: url("../images/recordstore.png");
 }
@@ -59,34 +63,61 @@ iframe {
 
 }
 
-a{
 
 
-  margin:auto;
-text-align: center;
+
+
+
+
+#blue {
+color: #014961;  /* Pull Quote Color*/
+}
+
+#links {
+  font-size: 100%;
   font-style: normal;
-  display: block;
-  width: 60px;
-  font-family: 'futura-pt', sans-serif;
-  color: ##E72746;
-  font-size: 2rem;
-
-
-  margin: 5rem auto 5rem auto;
-  box-sizing: border-box;
-
-  /*text-decoration: none;*/
-
+  display: inline;
+  width: 0;
+  margin: auto;
+  color: #55BCAB;
+  font-family: "Lato", sans-serif;
 }
 
-a:hover {
-  font-size: 2.1rem;
+#links a:link {
+    text-decoration: none;
 }
 
-a:visited {
-  color: #E72746
+a:hover, a:focus {
+  text-decoration: underline;
+}
+#links a:visited {
+
+  color: #014961;
 }
 
-#plays {
-color: #014961;
+#links2 {
+  font-size: 100%;
+  font-style: normal;
+  display: inline;
+  width: 0;
+  margin: auto;
+  color: #386979;
+  font-family: "Lato", sans-serif;
+}
+
+#links2 a:link {
+    text-decoration: none;
+}
+
+#record {
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+  margin-left: 5rem;
+  width: 70%;
+}
+
+#pig {
+  width: 50%;
+  margin-left: 8rem;
+  margin-top: -1rem;
 }
