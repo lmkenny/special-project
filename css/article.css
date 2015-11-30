@@ -121,3 +121,19 @@ a:hover, a:focus {
   margin-left: 8rem;
   margin-top: -1rem;
 }
+
+@media only screen and (max-width : 480px) {
+
+  #record {
+    margin-top: -2rem;
+    margin-bottom: -3rem;
+    margin-left: 3.5rem;
+    width: 70%;
+  }
+
+  #pig {
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: -1rem;
+  }
+}
