@@ -110,8 +110,8 @@ color: #014961;  /* Pull Quote Color*/
 }
 
 #record {
-  margin-top: -5rem;
-  margin-bottom: -5rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
   margin-left: 5rem;
   width: 70%;
 }
@@ -120,16 +120,15 @@ color: #014961;  /* Pull Quote Color*/
   width: 50%;
   margin-left: 8rem;
   margin-top: -1.5rem;
- margin-bottom: 2rem;
+  
 }
 
 @media only screen and (max-width : 480px) {
 
   #record {
-    margin-top: -2rem;
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
     margin-left: 3.5rem;
-    width: 70%;
+
   }
 
   #pig {
