@@ -23,25 +23,6 @@
     color: #014961;
   }
 
-  li {
-
-      width: 120px;
-      height: 35px;
-      margin-right: 1rem;
-      margin-top: 0.5rem;
-      padding-top: 0.1rem;
-      box-sizing: border-box;
-      font-family: 'futura-pt', sans-serif;
-
-  }
-
-.menu a {
-      text-align: center;
-
-      font-style: normal;
-      display: block;
-      width: 60px;
-      margin: auto;
-      color: #EEEDCE;
-      text-decoration: none;
+nav {
+  max-width: 40rem;
 }

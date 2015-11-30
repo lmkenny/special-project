@@ -90,11 +90,12 @@ img{
 }
 
 .menu a {
+display: inline;
 font-family: 'futura-pt', sans-serif;
 font-weight: 700;
 font-size: 12px;
-padding-left: 15px;
-padding-right: 15px;
+/*padding-left: 15px;
+padding-right: 15px;*/
 color:  #EEEDCE;
 text-decoration: none;
 
@@ -103,7 +104,7 @@ text-decoration: none;
 #menu-icon {
   visibility: hidden;
   display: hidden;
-	width: 15px;
+	width: 30px;
 	height: 35px;
 	background-image: url(../images/menu.png);
   background-position: center;
@@ -170,10 +171,12 @@ nav {
   max-width: 50rem;
   padding-left: 5rem;
 
-
-
-
 }
+
+nav li:hover {
+  background-color:#023e52;
+}
+
 
 .mb {
   height: 50px;
@@ -253,9 +256,16 @@ blockquote {
 
 }
 
+hr {
+  color: #55BCAB;
+
+}
+
 html {
   font-feature-settings: "liga" 1, "onum" 1, "kern" 1, "dlig" 1;
 }
+
+
 
 @media only screen and (max-width : 840px) {
 
