@@ -109,9 +109,10 @@ text-decoration: none;
 	background-image: url(../images/menu.png);
   background-position: center;
   /*margin-right: 5px;*/
-  background-size: 60%;
+  background-size: 70%;
   background-repeat: no-repeat;
   float: right;
+  margin-right: 0.2rem;
 
 
 }
