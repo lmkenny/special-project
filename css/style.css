@@ -108,7 +108,7 @@ text-decoration: none;
 	background-image: url(../images/menu.png);
   background-position: center;
   /*margin-right: 5px;*/
-  background-size: 40%;
+  background-size: 60%;
   background-repeat: no-repeat;
   float: right;
 
@@ -260,7 +260,7 @@ html {
 @media only screen and (max-width : 840px) {
 
   .menu {
-    position: absolute;
+    position: fixed;
   }
 
     #menu-icon {
