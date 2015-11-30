@@ -109,6 +109,8 @@ color: #014961;  /* Pull Quote Color*/
     text-decoration: none;
 }
 
+
+
 #record {
   margin-top: 3rem;
   margin-bottom: -1rem;
@@ -120,14 +122,16 @@ color: #014961;  /* Pull Quote Color*/
   width: 50%;
   margin-left: 8rem;
   margin-top: -1.5rem;
-  
+
 }
 
 @media only screen and (max-width : 480px) {
 
+
+
   #record {
     margin-bottom: -1rem;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
 
   }
 
@@ -137,3 +141,11 @@ color: #014961;  /* Pull Quote Color*/
     margin-top: -1rem;
   }
 }
+
+@media only screen and (max-width : 680px) {
+
+  #dollars {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
